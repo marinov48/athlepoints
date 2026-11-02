@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AthlePoints — Mode d'emploi</title>
+  <meta name="description" content="Mode d'emploi de l'application AthlePoints : calcul de points IAAF et WMA, épreuves combinées et Battle Mode.">
+  <style>
+    :root {
+      --bg: #f6f4ef;
+      --card: #ffffff;
+      --ink: #1c1b18;
+      --muted: #5c5a54;
+      --line: #e4e0d6;
+      --accent: #1f6b4a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--card);
+      border-bottom: 1px solid var(--line);
+      padding: 28px 20px;
+    }
+    header .wrap, main, footer .wrap {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+    h1 { font-size: 1.7rem; margin: 0 0 6px; }
+    .subtitle { color: var(--muted); margin: 0; }
+    nav { margin-top: 16px; display: flex; gap: 10px; flex-wrap: wrap; }
+    nav a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    main { padding: 28px 20px 64px; }
+    article {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 28px 28px 12px;
+      margin-bottom: 24px;
+    }
+    h2 { font-size: 1.25rem; margin-top: 0; }
+    h3 { font-size: 1.02rem; margin: 22px 0 8px; }
+    p, li { color: var(--ink); }
+    ul { padding-left: 1.2em; }
+    .meta { color: var(--muted); font-size: 0.92rem; }
+    a { color: var(--accent); }
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 20px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>AthlePoints</h1>
+      <p class="subtitle">Mode d'emploi / User guide</p>
+      <nav>
+        <a href="index.html">Confidentialité</a>
+        <a href="#fr">Français</a>
+        <a href="#en">English</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <article id="fr" lang="fr">
+      <h2>Mode d'emploi</h2>
+      <p class="meta">Dernière mise à jour : novembre 2026</p>
+      <p>AthlePoints calcule les points correspondant à une performance d'athlétisme, à partir des tables IAAF 2022 et des facteurs d'âge WMA 2023. Les résultats sont indicatifs. En compétition, seules les publications officielles font foi.</p>
+
+      <h3>1. Calcul</h3>
+      <p>L'écran Calcul sert au calcul d'une épreuve unique.</p>
+      <p><strong>Choisir une épreuve.</strong> Utilisez Outdoor, Indoor ou Route, puis sélectionnez l'épreuve. Combinées ouvre les épreuves combinées (décathlon, heptathlon, pentathlon, pentathlon lancers, etc.).</p>
+      <p><strong>Sexe et âge.</strong> Choisissez H ou F. L'âge sert au calcul WMA. L'option « - de 30 ans » calcule uniquement les points IAAF, sans WMA.</p>
+      <p><strong>Saisir une performance.</strong> En mode Perf, entrez la marque :</p>
+      <ul>
+        <li>courses : ss.SS ou mm:ss.SS (ex. 11.32 ou 2:05.40) ;</li>
+        <li>sauts et lancers : en mètres (ex. 6,50).</li>
+      </ul>
+      <p>Les points IAAF et WMA s'affichent automatiquement.</p>
+      <p><strong>Mode Points.</strong> Le basculeur Perf / Points inverse le calcul : vous entrez un nombre de points, l'application estime la performance correspondante. Pour les sauts (hauteur, longueur, perche), cette équivalence n'est pas strictement exacte au centimètre.</p>
+      <p><strong>Historique.</strong> Les 10 derniers calculs apparaissent en bas de l'écran Calcul.</p>
+
+      <h3>2. Épreuves combinées</h3>
+      <p>Depuis Combinées, choisissez le combiné (plein air ou indoor), puis saisissez chaque performance. Le total se met à jour.</p>
+      <p>Vous pouvez sauvegarder une session (nom et date) puis la recharger plus tard. Un appui long sur l'onglet combiné permet de changer de combiné.</p>
+
+      <h3>3. Battle Mode</h3>
+      <p>Battle Mode compare plusieurs athlètes.</p>
+      <ul>
+        <li><strong>Classique</strong> : tous les participants font les mêmes épreuves.</li>
+        <li><strong>Custom</strong> : chaque participant a ses propres épreuves.</li>
+      </ul>
+      <p>Étape 1 : ajoutez les participants (prénom, sexe, âge) et les épreuves. Étape 2 (Custom uniquement) : attribuez les épreuves à chaque personne. Dernière étape : saisissez les performances. Le classement et les totaux s'affichent.</p>
+      <p>Vous pouvez sauvegarder, dupliquer ou renommer une battle, et la partager (CSV, e-mail ou SMS).</p>
+
+      <h3>4. Réglages</h3>
+      <p>Apparence : thème clair ou sombre. Langue : français, anglais, allemand, espagnol, italien, ou langue du système. À propos : versions des tables, mode d'emploi, mentions légales et crédits.</p>
+
+      <h3>5. Bon à savoir</h3>
+      <p>Les points ne remplacent pas un classement officiel. Aucune donnée n'est envoyée à un serveur : tout reste sur votre appareil.</p>
+
+      <h3>6. Contact</h3>
+      <p><a href="mailto:athlepoints@luminy.com">athlepoints@luminy.com</a></p>
+    </article>
+
+    <article id="en" lang="en">
+      <h2>User guide</h2>
+      <p class="meta">Last update: November 2026</p>
+      <p>AthlePoints calculates points for an athletics performance using the IAAF 2022 scoring tables and WMA 2023 age factors. Results are indicative. In competition, only official publications are authoritative.</p>
+
+      <h3>1. Calculate</h3>
+      <p>The Calculate screen is for a single event.</p>
+      <p><strong>Choose an event.</strong> Use Outdoor, Indoor, or Road, then select the event. Combined opens combined events (decathlon, heptathlon, pentathlon, throws pentathlon, etc.).</p>
+      <p><strong>Sex and age.</strong> Choose M or F. Age is used for the WMA calculation. The “under 30” option calculates IAAF points only, without WMA.</p>
+      <p><strong>Enter a performance.</strong> In Perf mode, enter the mark:</p>
+      <ul>
+        <li>races: ss.SS or mm:ss.SS (e.g. 11.32 or 2:05.40);</li>
+        <li>jumps and throws: in metres (e.g. 6.50).</li>
+      </ul>
+      <p>IAAF and WMA points appear automatically.</p>
+      <p><strong>Points mode.</strong> The Perf / Points switch reverses the calculation: you enter a point score, and the app estimates the corresponding performance. For jumps (high jump, long jump, pole vault), this equivalence is not strictly exact to the centimetre.</p>
+      <p><strong>History.</strong> The last 10 calculations appear at the bottom of the Calculate screen.</p>
+
+      <h3>2. Combined events</h3>
+      <p>From Combined, choose the event (outdoor or indoor), then enter each performance. The total updates as you go.</p>
+      <p>You can save a session (name and date) and reload it later. A long press on the combined tab lets you switch combined events.</p>
+
+      <h3>3. Battle Mode</h3>
+      <p>Battle Mode compares several athletes.</p>
+      <ul>
+        <li><strong>Classic</strong>: all participants do the same events.</li>
+        <li><strong>Custom</strong>: each participant has their own events.</li>
+      </ul>
+      <p>Step 1: add participants (first name, sex, age) and events. Step 2 (Custom only): assign events to each person. Last step: enter performances. Rankings and totals are displayed.</p>
+      <p>You can save, duplicate, or rename a battle, and share it (CSV, email, or SMS).</p>
+
+      <h3>4. Settings</h3>
+      <p>Appearance: light or dark theme. Language: French, English, German, Spanish, Italian, or system language. About: table versions, user guide, legal notices, and credits.</p>
+
+      <h3>5. Good to know</h3>
+      <p>Points do not replace an official ranking. No data is sent to a server: everything stays on your device.</p>
+
+      <h3>6. Contact</h3>
+      <p><a href="mailto:athlepoints@luminy.com">athlepoints@luminy.com</a></p>
+    </article>
+  </main>
+  <footer>
+    <div class="wrap">© 2026 Marin Garrigues — AthlePoints</div>
+  </footer>
+</body>
+</html>

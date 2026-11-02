@@ -78,83 +78,147 @@
     <article id="fr" lang="fr">
       <h2>Mode d'emploi</h2>
       <p class="meta">Dernière mise à jour : novembre 2026</p>
-      <p>AthlePoints calcule les points correspondant à une performance d'athlétisme, à partir des tables IAAF 2022 et des facteurs d'âge WMA 2023. Les résultats sont indicatifs. En compétition, seules les publications officielles font foi.</p>
-
-      <h3>1. Calcul</h3>
-      <p>L'écran Calcul sert au calcul d'une épreuve unique.</p>
-      <p><strong>Choisir une épreuve.</strong> Utilisez Outdoor, Indoor ou Route, puis sélectionnez l'épreuve. Combinées ouvre les épreuves combinées (décathlon, heptathlon, pentathlon, pentathlon lancers, etc.).</p>
-      <p><strong>Sexe et âge.</strong> Choisissez H ou F. L'âge sert au calcul WMA. L'option « - de 30 ans » calcule uniquement les points IAAF, sans WMA.</p>
-      <p><strong>Saisir une performance.</strong> En mode Perf, entrez la marque :</p>
+      <p>Salut les athlètes</p>
+      <p>AthlePoints calcule les points correspondant à une performance d'athlétisme, à partir des tables IAAF 2022 et des facteurs d'âge WMA 2023 (World Masters Athletics). Les tables des épreuves combinées sont celles en vigueur depuis 1985.<br>
+      Ainsi, vous pouvez calculer les points correspondant à une performance entre 0 et 110 ans :-)</p>
+      <p>Abréviations utilisées :</p>
       <ul>
-        <li>courses : ss.SS ou mm:ss.SS (ex. 11.32 ou 2:05.40) ;</li>
-        <li>sauts et lancers : en mètres (ex. 6,50).</li>
+        <li>Le point devant une épreuve signale que cette épreuve a une table WMA et peut donc être utilisée si vous voulez connaître les points masters.</li>
+        <li>(in) : indoor, pour qu'il n'y ait pas de confusion lorsque vous avez choisi une épreuve qui existe en version short track ou stade : le 200 m, le 400 m, etc.</li>
+        <li>Le W accolé à certaines épreuves signifie marche (walk en anglais et dans la nomenclature internationale) : ex. 5000 mW.</li>
+        <li>Le SC accolé à certaines épreuves signifie steeple-chase. Ex. : 3000 m SC.</li>
+        <li>km pour signaler que c'est une épreuve sur route : 10 000 m, c'est sur piste, et 10 km, c'est sur route.</li>
       </ul>
-      <p>Les points IAAF et WMA s'affichent automatiquement.</p>
-      <p><strong>Mode Points.</strong> Le basculeur Perf / Points inverse le calcul : vous entrez un nombre de points, l'application estime la performance correspondante. Pour les sauts (hauteur, longueur, perche), cette équivalence n'est pas strictement exacte au centimètre.</p>
-      <p><strong>Historique.</strong> Les 10 derniers calculs apparaissent en bas de l'écran Calcul.</p>
-
+      <p>Il y a deux parties distinctes : la partie Calcul et la partie Battle.</p>
+      <h3>1. La partie Calcul</h3>
+      <p>Choisir une épreuve<br>
+      Utilisez Outdoor, Indoor ou Route, puis sélectionnez l'épreuve.<br>
+      Combinées ouvre les épreuves combinées (décathlon, heptathlon, pentathlon, pentathlon lancers, etc.).</p>
+      <p>L'IAAF utilise maintenant la mention short track (ST) pour ce qu'on appelait indoor avant : j'ai gardé indoor, car c'était plus clair à mon avis, et si vous voulez coter un 60 m, il faudra aller dans Indoor.<br>
+      Outdoor correspond à « stade » ou « long track », mais le couple Indoor / Outdoor est plus clair pour l'app (à mon avis).</p>
+      <p>Sexe et âge<br>
+      Choisissez H ou F. L'âge sert au calcul WMA. Les épreuves comportant des facteurs d'âge ont un point rond devant.<br>
+      Comme les tables WMA commencent à partir de 30 ans, l'option « - de 30 ans » calcule uniquement les points IAAF, sans WMA.</p>
+      <p>Saisir une performance<br>
+      En mode Perf, entrez la performance directement, sans vous soucier des points, virgules, deux-points, etc.<br>
+      Par exemple, pour un 100 m en 12.10 (12 secondes et 10 centièmes), tapez 1210 : le formatage se fera automatiquement.<br>
+      Idem pour un 800 m en 1 min 58 s et 34 centièmes : tapez directement 15834.<br>
+      Pour les mesures en mètres, c'est la même chose : longueur 6 m et 50 cm, tapez 650 directement.</p>
+      <p>Courses : secondes et centièmes ss.SS, ou minutes, secondes et centièmes mm:ss.SS (ex. 11.32 ou 2:05.40) ;<br>
+      sauts et lancers : en mètres (0.00).</p>
+      <p>Les points IAAF et WMA (s'il y a lieu) s'affichent automatiquement.</p>
+      <p>Si la performance est en dehors des limites de calcul, une alerte s'affiche, avec un rappel des limites.</p>
+      <p>Mode Points<br>
+      Le curseur Perf / Points inverse le calcul : vous entrez un nombre de points, l'application calcule la performance correspondante.</p>
+      <p>Historique<br>
+      Les 10 derniers calculs apparaissent en bas de l'écran Calcul.</p>
       <h3>2. Épreuves combinées</h3>
-      <p>Depuis Combinées, choisissez le combiné (plein air ou indoor), puis saisissez chaque performance. Le total se met à jour.</p>
-      <p>Vous pouvez sauvegarder une session (nom et date) puis la recharger plus tard. Un appui long sur l'onglet combiné permet de changer de combiné.</p>
-
-      <h3>3. Battle Mode</h3>
-      <p>Battle Mode compare plusieurs athlètes.</p>
-      <ul>
-        <li><strong>Classique</strong> : tous les participants font les mêmes épreuves.</li>
-        <li><strong>Custom</strong> : chaque participant a ses propres épreuves.</li>
-      </ul>
-      <p>Étape 1 : ajoutez les participants (prénom, sexe, âge) et les épreuves. Étape 2 (Custom uniquement) : attribuez les épreuves à chaque personne. Dernière étape : saisissez les performances. Le classement et les totaux s'affichent.</p>
-      <p>Vous pouvez sauvegarder, dupliquer ou renommer une battle, et la partager (CSV, e-mail ou SMS).</p>
-
+      <p>Depuis Combinées, choisissez le combiné (plein air ou indoor), puis saisissez chaque performance. Le total se met à jour.<br>
+      Vous pouvez sauvegarder une session (nom et date) puis la recharger plus tard.</p>
+      <h3>3. La partie Battle</h3>
+      <p>L'idée, c'était de pouvoir faire de petits challenges entre athlètes, en permettant de comparer hommes et femmes, et des âges différents.</p>
+      <p>Ainsi, 4 athlètes d'âges et de sexes différents peuvent faire une compétition en ayant les points correspondant à leurs caractéristiques.</p>
+      <p>Samuel : 24 ans<br>
+      Yohan : 48 ans<br>
+      Yaroslava : 25 ans<br>
+      Merlene : 66 ans</p>
+      <p>Classique : tous les participants font les mêmes épreuves. Le nombre d'épreuves est libre, de 1 à 10 (il existe même l'icosathlon : 20 épreuves !).<br>
+      Par exemple : 400 m, 3000 mW, hauteur et 100 m.</p>
+      <p>Custom : chaque participant choisit ses propres épreuves. Dans ce cas, on détermine le nombre d'épreuves, qui sera le même pour chaque concurrent. Dans l'exemple ci-dessous : 2 épreuves.<br>
+      Samuel choisit le 400 m et le 200 m.<br>
+      Yohan : le 3000 mW et le 20 kmW.<br>
+      Yaroslava : la hauteur et le 100 mH.<br>
+      Merlene : le 200 m et le 100 m.</p>
+      <p>Étape 1 : ajoutez les participants (prénom, sexe, âge) et les épreuves.<br>
+      Étape 2 (Custom uniquement) : attribuez les épreuves à chaque personne.<br>
+      Dernière étape : saisissez les performances. Le classement et les totaux s'affichent.</p>
+      <p>Vous pouvez sauvegarder, dupliquer ou renommer une battle, et la partager (CSV, e-mail ou SMS).<br>
+      À noter que seules les épreuves avec des coefficients WMA et homme / femme sont utilisables (sinon impossible de comparer un ou une jeune avec un ou une master).<br>
+      Petite subtilité importante : en cas de choix du 110 mH en mode classique, si une femme participe, c'est le 100 mH qui sera utilisé automatiquement :-) Sympa, non ?</p>
       <h3>4. Réglages</h3>
-      <p>Apparence : thème clair ou sombre. Langue : français, anglais, allemand, espagnol, italien, ou langue du système. À propos : versions des tables, mode d'emploi, mentions légales et crédits.</p>
-
-      <h3>5. Bon à savoir</h3>
-      <p>Les points ne remplacent pas un classement officiel. Aucune donnée n'est envoyée à un serveur : tout reste sur votre appareil.</p>
-
-      <h3>6. Contact</h3>
-      <p><a href="mailto:athlepoints@luminy.com">athlepoints@luminy.com</a></p>
+      <p>Apparence : thème clair ou sombre.<br>
+      Langue : français, anglais, allemand, espagnol, italien, ou langue du système.<br>
+      À propos : versions des tables, mode d'emploi, mentions légales et crédits.</p>
+      <h3>Développements prévus dans le futur :</h3>
+      <ul>
+        <li>Un mode qui permet de comparer un nombre de points dans plusieurs épreuves : par exemple, 650 points équivalent à 11.86 au 100 m homme, mais aussi à 2:04.70 au 800 m et 48.08 au javelot, etc. L'idée serait d'avoir l'ensemble des perfs pour un nombre de points choisi.</li>
+              <li>Intégration des tables IAAF 2025, qui comportent des ajustements sur certaines épreuves et le rajout du relais 4 × 400 m mixte.</li>
+              <li>Ajout de langues (selon la demande).</li>
+      </ul>
+      <p>Si vous avez des questions, des idées de fonctionnalités à ajouter, ou si vous trouvez un bug, contactez-moi : athlepoints@luminy.com</p>
     </article>
 
     <article id="en" lang="en">
       <h2>User guide</h2>
       <p class="meta">Last update: November 2026</p>
-      <p>AthlePoints calculates points for an athletics performance using the IAAF 2022 scoring tables and WMA 2023 age factors. Results are indicative. In competition, only official publications are authoritative.</p>
-
+      <p>Hi athletes</p>
+      <p>AthlePoints calculates points for an athletics performance using the IAAF 2022 scoring tables and the WMA 2023 age factors (World Masters Athletics). Combined-events tables are those in force since 1985.<br>
+      You can therefore calculate points for a performance from age 0 to 110 :-)</p>
+      <p>Abbreviations used:</p>
+      <ul>
+        <li>A dot in front of an event means that event has a WMA table, so you can get masters points.</li>
+        <li>(in): indoor, to avoid confusion when an event exists both as short track and stadium: 200 m, 400 m, etc.</li>
+        <li>W after some events means walk (international nomenclature): e.g. 5000 mW.</li>
+        <li>SC after some events means steeplechase. E.g. 3000 m SC.</li>
+        <li>km means a road event: 10,000 m is on the track, 10 km is on the road.</li>
+      </ul>
+      <p>There are two distinct parts: Calculate and Battle.</p>
       <h3>1. Calculate</h3>
-      <p>The Calculate screen is for a single event.</p>
-      <p><strong>Choose an event.</strong> Use Outdoor, Indoor, or Road, then select the event. Combined opens combined events (decathlon, heptathlon, pentathlon, throws pentathlon, etc.).</p>
-      <p><strong>Sex and age.</strong> Choose M or F. Age is used for the WMA calculation. The “under 30” option calculates IAAF points only, without WMA.</p>
-      <p><strong>Enter a performance.</strong> In Perf mode, enter the mark:</p>
-      <ul>
-        <li>races: ss.SS or mm:ss.SS (e.g. 11.32 or 2:05.40);</li>
-        <li>jumps and throws: in metres (e.g. 6.50).</li>
-      </ul>
-      <p>IAAF and WMA points appear automatically.</p>
-      <p><strong>Points mode.</strong> The Perf / Points switch reverses the calculation: you enter a point score, and the app estimates the corresponding performance. For jumps (high jump, long jump, pole vault), this equivalence is not strictly exact to the centimetre.</p>
-      <p><strong>History.</strong> The last 10 calculations appear at the bottom of the Calculate screen.</p>
-
+      <p>Choose an event<br>
+      Use Outdoor, Indoor or Road, then select the event.<br>
+      Combined opens combined events (decathlon, heptathlon, pentathlon, throws pentathlon, etc.).</p>
+      <p>IAAF now uses short track (ST) for what used to be called indoor: I kept Indoor, because it felt clearer, and if you want to score a 60 m you need to go to Indoor.<br>
+      Outdoor corresponds to “stadium” or “long track”, but the Indoor / Outdoor pair is clearer in the app (in my view).</p>
+      <p>Sex and age<br>
+      Choose M or F. Age is used for the WMA calculation. Events with age factors have a round dot in front.<br>
+      Because WMA tables start at age 30, the “under 30” option calculates IAAF points only, without WMA.</p>
+      <p>Enter a performance<br>
+      In Perf mode, enter the performance directly, without worrying about periods, commas, colons, etc.<br>
+      For example, for a 100 m in 12.10 (12 seconds and 10 hundredths), type 1210: formatting is applied automatically.<br>
+      Same for an 800 m in 1 min 58 s and 34 hundredths: type 15834 directly.<br>
+      For distances in metres, it is the same: long jump 6.50 m, type 650.</p>
+      <p>Races: seconds and hundredths ss.SS, or minutes, seconds and hundredths mm:ss.SS (e.g. 11.32 or 2:05.40);<br>
+      jumps and throws: in metres (0.00).</p>
+      <p>IAAF and WMA points (where applicable) appear automatically.</p>
+      <p>If the performance is outside the calculation limits, an alert is shown, with a reminder of the limits.</p>
+      <p>Points mode<br>
+      The Perf / Points switch reverses the calculation: you enter a number of points, and the app calculates the corresponding performance.</p>
+      <p>History<br>
+      The last 10 calculations appear at the bottom of the Calculate screen.</p>
       <h3>2. Combined events</h3>
-      <p>From Combined, choose the event (outdoor or indoor), then enter each performance. The total updates as you go.</p>
-      <p>You can save a session (name and date) and reload it later. A long press on the combined tab lets you switch combined events.</p>
-
-      <h3>3. Battle Mode</h3>
-      <p>Battle Mode compares several athletes.</p>
-      <ul>
-        <li><strong>Classic</strong>: all participants do the same events.</li>
-        <li><strong>Custom</strong>: each participant has their own events.</li>
-      </ul>
-      <p>Step 1: add participants (first name, sex, age) and events. Step 2 (Custom only): assign events to each person. Last step: enter performances. Rankings and totals are displayed.</p>
-      <p>You can save, duplicate, or rename a battle, and share it (CSV, email, or SMS).</p>
-
+      <p>From Combined, choose the event (outdoor or indoor), then enter each performance. The total updates as you go.<br>
+      You can save a session (name and date) and reload it later.</p>
+      <h3>3. Battle</h3>
+      <p>The idea was to run small challenges between athletes, comparing men and women and different ages.</p>
+      <p>So 4 athletes of different ages and sexes can compete using points matching their characteristics.</p>
+      <p>Samuel: 24<br>
+      Yohan: 48<br>
+      Yaroslava: 25<br>
+      Merlene: 66</p>
+      <p>Classic: all participants do the same events. The number of events is free, from 1 to 10 (there is even the icosathlon: 20 events!).<br>
+      For example: 400 m, 3000 mW, high jump and 100 m.</p>
+      <p>Custom: each participant chooses their own events. In that case you set the number of events, which is the same for every competitor. In the example below: 2 events.<br>
+      Samuel chooses 400 m and 200 m.<br>
+      Yohan: 3000 mW and 20 kmW.<br>
+      Yaroslava: high jump and 100 mH.<br>
+      Merlene: 200 m and 100 m.</p>
+      <p>Step 1: add participants (first name, sex, age) and events.<br>
+      Step 2 (Custom only): assign events to each person.<br>
+      Last step: enter performances. Rankings and totals are displayed.</p>
+      <p>You can save, duplicate or rename a battle, and share it (CSV, email or SMS).<br>
+      Note that only events with WMA and male/female coefficients can be used (otherwise you cannot compare a younger athlete with a master).<br>
+      A nice detail: if 110 mH is chosen in Classic mode and a woman takes part, 100 mH is used automatically :-) Handy, right?</p>
       <h3>4. Settings</h3>
-      <p>Appearance: light or dark theme. Language: French, English, German, Spanish, Italian, or system language. About: table versions, user guide, legal notices, and credits.</p>
-
-      <h3>5. Good to know</h3>
-      <p>Points do not replace an official ranking. No data is sent to a server: everything stays on your device.</p>
-
-      <h3>6. Contact</h3>
-      <p><a href="mailto:athlepoints@luminy.com">athlepoints@luminy.com</a></p>
+      <p>Appearance: light or dark theme.<br>
+      Language: French, English, German, Spanish, Italian, or system language.<br>
+      About: table versions, user guide, legal notices and credits.</p>
+      <h3>Planned future developments:</h3>
+      <ul>
+        <li>A mode to compare one point score across several events: for example, 650 points equals 11.86 in the men’s 100 m, but also 2:04.70 in the 800 m and 48.08 in the javelin, etc. The idea is to show all equivalent performances for a chosen point score.</li>
+              <li>Integration of the IAAF 2025 tables, which include adjustments on some events and the mixed 4 × 400 m relay.</li>
+              <li>More languages (on request).</li>
+      </ul>
+      <p>If you have questions, ideas for features, or if you find a bug, contact me: athlepoints@luminy.com</p>
     </article>
   </main>
   <footer>
